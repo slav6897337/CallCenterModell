@@ -16,12 +16,10 @@
         /// Initializes a new instance of the <see cref="Employee"/> class.
         /// </summary>
         /// <param name="name">Name employee.</param>
-        /// <param name="post">Post employee.</param>
-        protected Employee(string name, string post)
+        protected Employee(string name)
             : this()
         {
             Name = name;
-            Post = post;
         }
 
         /// <summary>

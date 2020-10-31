@@ -12,7 +12,11 @@
         /// </summary>
         public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            IDispatchCall dispatchCall = new CallCenter();
+            for (int i = 0; i < 14; i++)
+            {
+                dispatchCall.DispatchCall("8029 99659");
+            }
         }
     }
 }

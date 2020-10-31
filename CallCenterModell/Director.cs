@@ -9,8 +9,18 @@
         /// Initializes a new instance of the <see cref="Director"/> class.
         /// </summary>
         public Director()
-            : base()
+            : this("No data")
         {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Director"/> class.
+        /// </summary>
+        /// <param name="name">Name employee.</param>
+        public Director(string name)
+            : base(name)
+        {
+            Post = "Director";
         }
     }
 }
